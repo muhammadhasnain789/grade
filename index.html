@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Grade Calculator</h1>
+        <input type="text" id="userName" placeholder="Enter Your Name" required>
+        <input type="number" id="obtainedMarks" placeholder="Obtained Marks" min="0" required>
+        <input type="number" id="totalMarks" placeholder="Total Marks" min="1" required>
+
+        <div class="result" id="result"></div>
+        <button onclick="calculateGrade()">Calculate</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
